@@ -1,9 +1,15 @@
 plugins {
     id 'java'
+    id 'application'
+}
+
+mainClassName = findProperty("main") ?: "com.codewithsathya.algorithms.${findProperty("algorithm") ?: 'missingPackage.missingClass'}"
+run{
+    standardInput = System.in
 }
 
 group 'com.codewithsathya'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 repositories {
     mavenCentral()
