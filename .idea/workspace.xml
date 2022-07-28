@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Breadth First Search using Adjacency list iterative method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/DepthFirstSearchAdjacencyListRecursive.java" afterDir="false" />
+    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Depth First Search using Adjacency list recursive method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/BreadthFirstSearchAdjacencyListRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659000648502</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Depth First Search using Adjacency list recursive method">
+      <created>1659001154878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659001154878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +277,8 @@
     <MESSAGE value="Added run configuration" />
     <MESSAGE value="Depth First Search using Adjacency list iterative method" />
     <MESSAGE value="Breadth First Search using Adjacency list iterative method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breadth First Search using Adjacency list iterative method" />
+    <MESSAGE value="Depth First Search using Adjacency list recursive method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Depth First Search using Adjacency list recursive method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
