@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Added run configuration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/DepthFirstSearchAdjacencyListIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Depth First Search using Adjacency list iterative method">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/BreadthFirstSearchAdjacencyListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/BreadthFirstSearchAdjacencyListIterative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658911234884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Depth First Search using Adjacency list iterative method">
+      <created>1658999760450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658999760450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +245,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial changes" />
     <MESSAGE value="Added run configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added run configuration" />
+    <MESSAGE value="Depth First Search using Adjacency list iterative method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Depth First Search using Adjacency list iterative method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
