@@ -1,9 +1,8 @@
-package com.codewithsathya.algorithms.graphs;
+package com.codewithsathya.algorithms.graphs.traversal;
 
-import java.sql.Array;
 import java.util.*;
 
-public class DepthFirstSearchAdjacencyListIterative {
+public class DepthFirstSearchAdjacencyListRecursive {
     public static class Edge{
         int from, to;
         double cost;
@@ -15,26 +14,16 @@ public class DepthFirstSearchAdjacencyListIterative {
         }
     }
 
-    public static void dfs(Map<Integer, List<Edge>> graph, int source){
-        if(!graph.containsKey(source)){
-            System.out.println(source + " not found");
-        }
-        Stack<Integer> st = new Stack<>();
-        Set<Integer> visited = new HashSet<>();
-        st.push(source);
+    private static void dfs(Map<Integer, List<Edge>> graph, int source, Set<Integer> visited){
+        if(visited.contains(source) || !graph.containsKey(source)) return;
         visited.add(source);
-
-        while(!st.isEmpty()){
-            int node = st.pop();
-            System.out.println(node);
-
-            for(Edge edge: graph.get(node)){
-                if(!visited.contains(edge.to)){
-                    visited.add(edge.to);
-                    st.push(edge.to);
-                }
-            }
+        System.out.println(source);
+        for(Edge neighbour: graph.get(source)){
+            dfs(graph, neighbour.to, visited);
         }
+    }
+    public static void dfs(Map<Integer, List<Edge>> graph, int source){
+        dfs(graph, source, new HashSet<>());
     }
 
     public static void main(String[] args) {
@@ -42,8 +31,8 @@ public class DepthFirstSearchAdjacencyListIterative {
         Map<Integer, List<Edge>> graph = new HashMap<>();
         addDirectedEdge(graph, 0, 1, 4);
         addDirectedEdge(graph, 0, 2, 5);
-        addDirectedEdge(graph, 1, 2, -2);
         addDirectedEdge(graph, 1, 3, 6);
+        addDirectedEdge(graph, 1, 2, -2);
         addDirectedEdge(graph, 2, 3, 1);
         addDirectedEdge(graph, 2, 2, 10);
         dfs(graph, 0);

@@ -1,4 +1,4 @@
-package com.codewithsathya.algorithms.graphs;
+package com.codewithsathya.algorithms.graphs.traversal;
 
 import java.util.*;
 
