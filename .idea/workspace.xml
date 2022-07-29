@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Breadth First Search using Adjacency list recursive method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/shortestpath/FindingShortestPathInGridUsingBFS.java" afterDir="false" />
+    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Finding the shortest path in Grid containing obstacles using BFS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/LeafSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/BreadthFirstSearchAdjacencyListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/traversal/BreadthFirstSearchAdjacencyListIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/BreadthFirstSearchAdjacencyListRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/traversal/BreadthFirstSearchAdjacencyListRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/DepthFirstSearchAdjacencyListIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/traversal/DepthFirstSearchAdjacencyListIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/DepthFirstSearchAdjacencyListRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/algorithms/graphs/traversal/DepthFirstSearchAdjacencyListRecursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +94,7 @@
     "settings.editor.selected.configurable": "shared-indexes"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindingShortestPathInGridUsingBFS">
-    <configuration name="BreadthFirstSearchAdjacencyListRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.algorithms.graphs.traversal.BreadthFirstSearchAdjacencyListRecursive" />
-      <module name="Algorithms.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codewithsathya.algorithms.graphs.traversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Tree">
     <configuration name="DepthFirstSearchAdjacencyListIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codewithsathya.algorithms.graphs.traversal.DepthFirstSearchAdjacencyListIterative" />
       <module name="Algorithms.main" />
@@ -143,6 +127,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codewithsathya.algorithms.graphs.shortestpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.Tree" />
+      <module name="Algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codewithsathya.datastructures.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,15 +190,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BreadthFirstSearchAdjacencyListRecursive" />
       <item itemvalue="Application.DepthFirstSearchAdjacencyListIterative" />
       <item itemvalue="Application.DepthFirstSearchAdjacencyListRecursive" />
       <item itemvalue="Application.FindingShortestPathInGridUsingBFS" />
+      <item itemvalue="Application.Tree" />
       <item itemvalue="Gradle.Algorithms [compileJava]" />
       <item itemvalue="Gradle.Algorithms [run]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tree" />
         <item itemvalue="Application.FindingShortestPathInGridUsingBFS" />
         <item itemvalue="Gradle.Algorithms [run]" />
       </list>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659003501261</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finding the shortest path in Grid containing obstacles using BFS">
+      <created>1659063150972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659063150972</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +284,8 @@
     <MESSAGE value="Breadth First Search using Adjacency list iterative method" />
     <MESSAGE value="Depth First Search using Adjacency list recursive method" />
     <MESSAGE value="Breadth First Search using Adjacency list recursive method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breadth First Search using Adjacency list recursive method" />
+    <MESSAGE value="Finding the shortest path in Grid containing obstacles using BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finding the shortest path in Grid containing obstacles using BFS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
