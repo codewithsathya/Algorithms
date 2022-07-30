@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Finding the shortest path in Grid containing obstacles using BFS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/LeafSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/Tree.java" afterDir="false" />
+    <list default="true" id="64b832a7-d200-475b-9de7-ba834f782f8b" name="Changes" comment="Added BinaryTree with to construct from array.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/LowestCommonAncestorBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codewithsathya/datastructures/trees/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,23 +86,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "shared-indexes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Tree">
-    <configuration name="DepthFirstSearchAdjacencyListIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.algorithms.graphs.traversal.DepthFirstSearchAdjacencyListIterative" />
+}</component>
+  <component name="RunManager" selected="Application.LowestCommonAncestorBST">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.BinarySearchTree" />
       <module name="Algorithms.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codewithsathya.algorithms.graphs.traversal.*" />
+          <option name="PATTERN" value="com.codewithsathya.datastructures.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthFirstSearchAdjacencyListRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.algorithms.graphs.traversal.DepthFirstSearchAdjacencyListRecursive" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.BinaryTree" />
       <module name="Algorithms.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codewithsathya.algorithms.graphs.traversal.*" />
+          <option name="PATTERN" value="com.codewithsathya.datastructures.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindingShortestPathInGridUsingBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.algorithms.graphs.shortestpath.FindingShortestPathInGridUsingBFS" />
+    <configuration name="LeafSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.LeafSum" />
       <module name="Algorithms.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codewithsathya.algorithms.graphs.shortestpath.*" />
+          <option name="PATTERN" value="com.codewithsathya.datastructures.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,8 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.Tree" />
+    <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.LowestCommonAncestor" />
+      <module name="Algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codewithsathya.datastructures.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LowestCommonAncestorBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewithsathya.datastructures.trees.LowestCommonAncestorBST" />
       <module name="Algorithms.main" />
       <extension name="coverage">
         <pattern>
@@ -168,40 +183,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Algorithms [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.DepthFirstSearchAdjacencyListIterative" />
-      <item itemvalue="Application.DepthFirstSearchAdjacencyListRecursive" />
-      <item itemvalue="Application.FindingShortestPathInGridUsingBFS" />
-      <item itemvalue="Application.Tree" />
+      <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.LowestCommonAncestorBST" />
+      <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.LeafSum" />
+      <item itemvalue="Application.LowestCommonAncestor" />
       <item itemvalue="Gradle.Algorithms [compileJava]" />
-      <item itemvalue="Gradle.Algorithms [run]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.FindingShortestPathInGridUsingBFS" />
-        <item itemvalue="Gradle.Algorithms [run]" />
+        <item itemvalue="Application.LowestCommonAncestorBST" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.LowestCommonAncestor" />
+        <item itemvalue="Application.LeafSum" />
+        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659063150972</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added BinaryTree with to construct from array.">
+      <created>1659073851525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659073851525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +288,8 @@
     <MESSAGE value="Depth First Search using Adjacency list recursive method" />
     <MESSAGE value="Breadth First Search using Adjacency list recursive method" />
     <MESSAGE value="Finding the shortest path in Grid containing obstacles using BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding the shortest path in Grid containing obstacles using BFS" />
+    <MESSAGE value="Added BinaryTree with to construct from array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BinaryTree with to construct from array." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

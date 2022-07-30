@@ -69,10 +69,4 @@ public class BinaryTree {
             if(node.right != null)  queue.add(node.right);
         }
     }
-
-    public static void main(String[] args) {
-        Integer[] arr = {6, 3, 5, 2, null, 1, 4, null, 8, null, 5, 0, null};
-        Node<Integer> root = constructTree(arr);
-        breadthFirstTraversal(root);
-    }
 }
